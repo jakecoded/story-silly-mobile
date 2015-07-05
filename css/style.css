@@ -1,0 +1,154 @@
+body{
+	font-family: 'Roboto-Regular', sans-serif;
+}
+
+img{ width: 100%; }
+
+.clear{ clear: both; }
+
+.container{
+	max-width: 1160px;
+	margin: 0 auto;
+}
+
+/*HEADER AREA*/
+
+header{
+	background-color: #4CA850;
+	min-height: 113px;
+}
+
+header .container {
+	padding: 8px;
+}
+
+.logo-wrapper {
+	float: left;
+	width: 20%;
+}
+
+.logo-wrapper > a > img{
+	max-width: 40%;
+}
+
+.navigation-wrapper {
+	float: left;
+	width: 80%;
+}
+
+.navigation-wrapper nav{
+	padding-top: 34px;
+}
+
+.navigation-wrapper .main-nav{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+.navigation-wrapper .main-nav li{
+	list-style: none;
+	display: inline-block;
+}
+
+.navigation-wrapper .main-nav li a {
+	display: block;
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 5px 15px;
+	font-family: 'Roboto-Medium';
+}
+
+
+/*MAIN CONTENT*/
+
+.main-content{
+	background-image: url('../images/homepage-bg.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.download-app .col1,
+.download-app .col2 {
+	float: left;
+	width: 50%;
+}
+
+.download-app .col1 {
+	text-align: right;
+	padding: 50px 0;
+}
+
+.download-app .col1 img {
+	max-width: 50%;
+}
+
+.download-app .col2 {
+	padding: 80px 0;
+}
+
+.download-app .col2 p {
+	font-size: 44px;
+	color: #FFF;
+	line-height: 1.1;
+	font-family: 'Proxima-Bold';
+}
+
+.download-app .col2 p:first-child {
+	padding-right: 170px;
+}
+
+.download-app .col2 p > strong {
+	font-size: 48px;
+	font-family: 'Proxima-ExtraBold'
+}
+
+.download-app .col2 p .download-android-app {
+	display: inline-block;
+	background-color: #4CA850;
+	border-radius: 3px;
+}
+
+.download-app .col2 p .download-android-app img {
+	display: block;
+}
+
+
+/*FOOTER AREA*/
+
+footer{
+	background-color: #4CA850;
+}
+
+footer .copyright,
+footer .footer-links{
+	float: left;
+	width: 50%;
+	color: #FFF;
+	font-size: 14px;
+}
+
+footer .footer-links ul{
+	margin: 0;
+	padding: 1em 0;
+	text-align: right;
+}
+
+footer .footer-links ul li {
+	display: inline-block;
+	border-right: 1px solid #FFF;
+}
+
+footer .footer-links ul li:last-child{
+	border: none;
+}
+
+footer .footer-links ul li a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 0 5px;
+}
